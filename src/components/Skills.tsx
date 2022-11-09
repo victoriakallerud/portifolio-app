@@ -5,16 +5,16 @@ import Event from "../assets/event-icon.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full sm:h-screen bg-[#78a7ad]">
+    <div id="skills" className="w-full sm:h-screen bg-[#01497c]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-2 border-grey-500">
+          <p className="text-4xl font-bold inline border-b-2 border-[#d7e3fc] text-[#edf2fb]">
             Skills
           </p>
-          <p className="py-4">Take a look at my experiences</p>
+          <p className="py-4 text-[#d7e3fc]">Take a look at my experiences</p>
         </div>
         <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 text-center py-8">
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
+          <div className="bg-[#edf2fb] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4 p-5">
             <img
               className="w-10 mx-auto"
               src={Developing}
@@ -22,41 +22,24 @@ const Skills = () => {
             />
             <p className="my-4 font-semibold">Developing</p>
             <p className="my-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              I like to develop. I am mostly have the most experience with front end technologies, but have 
+              worked on full stack applications as well.
             </p>
           </div>
 
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
+          <div className="bg-[#edf2fb] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4 p-5">
             <img className="w-10 mx-auto" src={Design} alt="Design icon" />
             <p className="my-4 font-semibold">Design</p>
             <p className="my-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              I like to make things look pretty. I know CSS, tailwind, and have used the Material UI react library.
             </p>
           </div>
 
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
+          <div className="bg-[#edf2fb] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4 p-5">
             <img className="w-10 mx-auto" src={Event} alt="Event icon" />
             <p className="my-4 font-semibold">Event</p>
             <p className="my-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              I like to have fun. Sign me up.
             </p>
           </div>
         </div>
